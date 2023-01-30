@@ -16,7 +16,8 @@ import chalk from "chalk"
  *         "minWidth"?: number,
  *         "minHeight"?: number,
  *         "resizable"?: boolean,
- *         "maximize"?: boolean
+ *         "maximize"?: boolean,
+ *         "borderless"?: boolean
  *     },
  *     "output"?: string;
  *     "versions": {
@@ -39,6 +40,7 @@ const defaultOptions = {
         minHeight: 200,
         resizable: true,
         maximize: false,
+        borderless: false,
     },
     output: "build",
     versions: {
@@ -98,7 +100,7 @@ export default function (options = defaultOptions) {
                             alwaysOnTop: false,
                             icon: "/build/" + options.icon,
                             enableInspector: false,
-                            borderless: false,
+                            borderless: options.window.borderless,
                             maximize: options.window.maximize,
                             hidden: false,
                             resizable: options.window.resizable,
