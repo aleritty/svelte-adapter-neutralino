@@ -1,5 +1,5 @@
 {
-    "name": "@macfja/svelte-adapter-neutralino",
+    "name": "@aleritty/svelte-adapter-neutralino",
     "description": "SvelteKit adapter to generate a Neutralinojs application",
     "type": "module",
     "version": "0.3.0",
@@ -29,16 +29,16 @@
         "prettier": "^2.5.1"
     },
     "peerDependencies": {
-        "@sveltejs/kit": "^1.0.0-next.208"
+        "@sveltejs/kit": "^1.0.0-next.405"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/macfja/svelte-adapter-neutralino.git"
+        "url": "git+https://github.com/aleritty/svelte-adapter-neutralino.git"
     },
     "bugs": {
-        "url": "https://github.com/macfja/svelte-adapter-neutralino/issues"
+        "url": "https://github.com/aleritty/svelte-adapter-neutralino/issues"
     },
-    "homepage": "https://github.com/macfja/svelte-adapter-neutralino#readme",
+    "homepage": "https://github.com/aleritty/svelte-adapter-neutralino#readme",
     "author": "MacFJA",
     "license": "MIT",
     "keywords": [
