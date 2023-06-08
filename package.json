@@ -20,7 +20,7 @@
         "lint": "eslint index.js"
     },
     "dependencies": {
-        "@sveltejs/adapter-static": "^1.0.0-next.24",
+        "@sveltejs/adapter-static": "^2.0.2",
         "chalk": "^5.2.0"
     },
     "devDependencies": {
