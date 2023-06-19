@@ -56,7 +56,7 @@ const cliVersion = "^9.1.1"
  */
 export default function (options = defaultOptions) {
     return {
-        name: "@macfja/svelte-adapter-neutralino",
+        name: "@aleritty/svelte-adapter-neutralino",
 
         async adapt(builder) {
             options = { ...defaultOptions, ...options }

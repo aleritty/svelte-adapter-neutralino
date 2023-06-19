@@ -5,14 +5,14 @@ A SvelteKit adapter to generate a [Neutralinojs](https://neutralino.js.org/) app
 ## Installation
 
 ```
-npm install --save-dev @macfja/svelte-adapter-neutralino
+npm install --save-dev https://github.com/aleritty/svelte-adapter-neutralino
 ```
 
 ## Usage
 
 ```javascript
 // svelte.config.js
-import adapter from "@macfja/svelte-adapter-neutralino"
+import adapter from "@aleritty/svelte-adapter-neutralino"
 
 export default {
     kit: {
